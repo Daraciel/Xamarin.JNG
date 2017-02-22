@@ -15,11 +15,15 @@ C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bi
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.JNG.dll
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.JNG.pdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\obj\Debug\Xamarin.JNG.Droid.csprojResolveAssemblyReference.cache
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\obj\Debug\Xamarin.JNG.Droid.dll
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\obj\Debug\Xamarin.JNG.Droid.pdb

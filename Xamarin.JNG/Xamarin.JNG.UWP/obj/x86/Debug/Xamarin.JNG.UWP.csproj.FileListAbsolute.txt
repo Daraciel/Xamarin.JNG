@@ -1,0 +1,7 @@
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.UWP\obj\x86\Debug\Xamarin.JNG.UWP.csprojResolveAssemblyReference.cache
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.UWP\obj\x86\Debug\App.g.i.cs
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.UWP\obj\x86\Debug\App.g.cs
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.UWP\obj\x86\Debug\App.xaml
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.UWP\obj\x86\Debug\MainPage.xaml
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.UWP\obj\x86\Debug\App.xbf
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.UWP\obj\x86\Debug\MainPage.xbf

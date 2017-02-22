@@ -8,11 +8,11 @@ C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debu
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.csprojResolveAssemblyReference.cache
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.MainPage.xaml.g.cs
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.App.xaml.g.cs
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.dll
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.pdb
+C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.csprojResolveAssemblyReference.cache
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.dll.mdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug\Xamarin.JNG.dll.mdb
 C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.dll.mdb
