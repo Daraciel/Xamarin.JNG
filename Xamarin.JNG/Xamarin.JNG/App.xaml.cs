@@ -13,7 +13,7 @@ namespace Xamarin.JNG
         {
             InitializeComponent();
 
-            MainPage = new Xamarin.JNG.MainPage();
+            MainPage = new Xamarin.JNG.Views.MainView();
         }
 
         protected override void OnStart()

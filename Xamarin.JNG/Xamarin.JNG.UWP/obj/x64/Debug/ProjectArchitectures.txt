@@ -1,2 +1,2 @@
-C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.UWP\Xamarin.JNG.UWP.csproj;x64
-C:\Users\Novanotio\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.csproj;neutral
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.UWP\Xamarin.JNG.UWP.csproj;x64
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.csproj;neutral
