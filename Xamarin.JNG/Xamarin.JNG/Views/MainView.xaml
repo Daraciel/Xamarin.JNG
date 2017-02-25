@@ -33,12 +33,11 @@
             HorizontalOptions="Center" 
             VerticalOptions="Center"/>
         <Entry
-            x:Name="tbName"
+            Text="{Binding Name, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="1" 
             Placeholder="Nombre"
-            Keyboard="Text"
-            TextChanged="tbName_TextChanged"/>
+            Keyboard="Text"/>
         <!-- ROW 2 -->
         <Label
             Grid.Column="0"
@@ -48,12 +47,11 @@
             HorizontalOptions="Center" 
             VerticalOptions="Center"/>
         <Entry
-            x:Name="tbFirstSurname"
+            Text="{Binding FirstSurname, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="2" 
             Placeholder="Apellido"
-            Keyboard="Text"
-            TextChanged="tbFirstSurname_TextChanged"/>
+            Keyboard="Text"/>
         <!-- ROW 3 -->
         <Label
             Grid.Column="0"
@@ -63,12 +61,11 @@
             HorizontalOptions="Center" 
             VerticalOptions="Center"/>
         <Entry
-            x:Name="tbSecondSurname"
+            Text="{Binding LastSurname, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="3" 
             Placeholder="Apellido"
-            Keyboard="Text"
-            TextChanged="tbSecondSurname_TextChanged"/>
+            Keyboard="Text"/>
         <!-- ROW 4 -->
         <Label
             Grid.Column="0"
@@ -78,19 +75,18 @@
             HorizontalOptions="Center" 
             VerticalOptions="Center"/>
         <Entry
-            x:Name="tbCity"
+            Text="{Binding City, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="4" 
             Placeholder="Ciudad"
-            Keyboard="Text"
-            TextChanged="tbCity_TextChanged"/>
+            Keyboard="Text" />
         <!-- ROW 5 -->
         <Button
+            Command="{Binding ClickCommand}"
             Grid.Row="5"
             Grid.Column="0"
             Grid.ColumnSpan="2"
-            Text="Generar Nombre"
-            Clicked="Button_Clicked"/>
+            Text="Generar Nombre"/>
 
         <!-- ROW 6 -->
         <Label
@@ -106,7 +102,7 @@
             Grid.Column="1"
             Padding="10,10,10,10">
             <Label
-                x:Name="lblJediName"/>
+                Text="{Binding JediName, Mode=OneWay}"/>
         </ContentView>
     </Grid>
 </ContentPage>

@@ -25,7 +25,6 @@ C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.csprojResolveAssemblyReference.cache
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.App.xaml.g.cs
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.dll
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.pdb
