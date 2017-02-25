@@ -1,7 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Xamarin.JNG.Views.MainView">
+             x:Class="Xamarin.JNG.Views.MainView"
+             BackgroundImage="StarsBG.jpg">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelSWStyle" TargetType="Label">
+                <Setter Property="HorizontalOptions"
+                Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="Yellow" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -15,90 +28,111 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <!-- ROW 0 -->
         <Label 
             Grid.Column="0"
             Grid.Row="0"
             Grid.ColumnSpan="2"
-            Text="Jedi Name Generator"
+            Text="Jedi Name"
+            TextColor="Yellow"
             FontSize="Large" 
-            HorizontalOptions="Center"/>
+            HorizontalOptions="CenterAndExpand"/>
         <!-- ROW 1 -->
-        <Label
+        <Label 
             Grid.Column="0"
             Grid.Row="1"
+            Grid.ColumnSpan="2"
+            Text="Generator"
+            TextColor="Yellow"
+            FontSize="Large" 
+            HorizontalOptions="CenterAndExpand"/>
+        <!-- ROW 2 -->
+        <Label
+            Grid.Column="0"
+            Grid.Row="2"
             Text="Tu Nombre:"
+            TextColor="Yellow"
             FontSize="Default"
             HorizontalOptions="Center" 
             VerticalOptions="Center"/>
         <Entry
             Text="{Binding Name, Mode=OneWayToSource}"
             Grid.Column="1"
-            Grid.Row="1" 
+            Grid.Row="2" 
             Placeholder="Nombre"
+            BackgroundColor="Gray"
             Keyboard="Text"/>
-        <!-- ROW 2 -->
+        <!-- ROW 3 -->
         <Label
             Grid.Column="0"
-            Grid.Row="2"
+            Grid.Row="3"
             Text="Tu Primer Apellido:"
+            TextColor="Yellow"
             FontSize="Default"
             HorizontalOptions="Center" 
             VerticalOptions="Center"/>
         <Entry
             Text="{Binding FirstSurname, Mode=OneWayToSource}"
             Grid.Column="1"
-            Grid.Row="2" 
-            Placeholder="Apellido"
-            Keyboard="Text"/>
-        <!-- ROW 3 -->
-        <Label
-            Grid.Column="0"
-            Grid.Row="3"
-            Text="Tu Segundo Apellido:"
-            FontSize="Default"
-            HorizontalOptions="Center" 
-            VerticalOptions="Center"/>
-        <Entry
-            Text="{Binding LastSurname, Mode=OneWayToSource}"
-            Grid.Column="1"
             Grid.Row="3" 
+            BackgroundColor="Gray"
             Placeholder="Apellido"
             Keyboard="Text"/>
         <!-- ROW 4 -->
         <Label
             Grid.Column="0"
             Grid.Row="4"
+            Text="Tu Segundo Apellido:"
+            TextColor="Yellow"
+            FontSize="Default"
+            HorizontalOptions="Center" 
+            VerticalOptions="Center"/>
+        <Entry
+            Text="{Binding LastSurname, Mode=OneWayToSource}"
+            Grid.Column="1"
+            Grid.Row="4" 
+            BackgroundColor="Gray"
+            Placeholder="Apellido"
+            Keyboard="Text"/>
+        <!-- ROW 5 -->
+        <Label
+            Grid.Column="0"
+            Grid.Row="5"
             Text="Tu Ciudad de nacimiento:"
+            TextColor="Yellow"
             FontSize="Default"
             HorizontalOptions="Center" 
             VerticalOptions="Center"/>
         <Entry
             Text="{Binding City, Mode=OneWayToSource}"
             Grid.Column="1"
-            Grid.Row="4" 
+            Grid.Row="5" 
+            BackgroundColor="Gray"
             Placeholder="Ciudad"
             Keyboard="Text" />
-        <!-- ROW 5 -->
+        <!-- ROW 6 -->
         <Button
             Command="{Binding ClickCommand}"
-            Grid.Row="5"
+            Grid.Row="6"
             Grid.Column="0"
             Grid.ColumnSpan="2"
+            HorizontalOptions="Center"
             Text="Generar Nombre"/>
 
-        <!-- ROW 6 -->
+        <!-- ROW 7 -->
         <Label
             Grid.Column="0"
-            Grid.Row="6"
+            Grid.Row="7"
             Text="Tu nombre Jedi:"
+            TextColor="Yellow"
             FontSize="Default"
             HorizontalOptions="Center" 
             VerticalOptions="Center"/>
         <ContentView
             BackgroundColor="Gray"
-            Grid.Row="6"
+            Grid.Row="7"
             Grid.Column="1"
             Padding="10,10,10,10">
             <Label
