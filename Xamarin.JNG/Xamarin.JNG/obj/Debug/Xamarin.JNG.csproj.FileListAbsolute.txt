@@ -31,3 +31,5 @@ C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.pdb
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.dll.mdb
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug\Xamarin.JNG.dll.mdb
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Debug\Xamarin.JNG.dll.mdb
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Debug\Xamarin.JNG.dll.mdb

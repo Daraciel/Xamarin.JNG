@@ -2,6 +2,10 @@ Xamarin.JNG.Droid.MainActivity, Xamarin.JNG.Droid;md52b695a659e639d4de77981c4763
 Xamarin.JNG.Droid.MainActivity, Xamarin.JNG.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52b695a659e639d4de77981c47637e52b.MainActivity
 Xamarin.JNG.Droid.MainActivity;md52b695a659e639d4de77981c47637e52b.MainActivity
 xamarin.jng.droid.MainActivity;md52b695a659e639d4de77981c47637e52b.MainActivity
+Xamarin.JNG.Droid.SplashActivity, Xamarin.JNG.Droid;md52b695a659e639d4de77981c47637e52b.SplashActivity
+Xamarin.JNG.Droid.SplashActivity, Xamarin.JNG.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52b695a659e639d4de77981c47637e52b.SplashActivity
+Xamarin.JNG.Droid.SplashActivity;md52b695a659e639d4de77981c47637e52b.SplashActivity
+xamarin.jng.droid.SplashActivity;md52b695a659e639d4de77981c47637e52b.SplashActivity
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

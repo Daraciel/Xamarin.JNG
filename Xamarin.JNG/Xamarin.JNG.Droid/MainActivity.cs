@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace Xamarin.JNG.Droid
 {
-    [Activity(Label = "Xamarin.JNG", Icon = "@drawable/iconJNG", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Jedi Name Generator", Icon = "@drawable/iconJNG", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)

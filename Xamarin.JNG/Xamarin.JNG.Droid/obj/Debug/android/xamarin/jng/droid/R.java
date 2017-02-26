@@ -2281,8 +2281,9 @@ containing a value of this type.
         public static final int mr_ic_play_light=0x7f020062;
         public static final int mr_ic_settings_dark=0x7f020063;
         public static final int mr_ic_settings_light=0x7f020064;
-        public static final int notification_template_icon_bg=0x7f020066;
-        public static final int starsbg=0x7f020065;
+        public static final int notification_template_icon_bg=0x7f020067;
+        public static final int splashcreen=0x7f020065;
+        public static final int starsbg=0x7f020066;
     }
     public static final class id {
         public static final int action0=0x7f0b0074;
@@ -2757,6 +2758,7 @@ containing a value of this type.
         public static final int Theme_AppCompat_NoActionBar=0x7f0700ed;
         public static final int Theme_MediaRouter=0x7f070000;
         public static final int Theme_MediaRouter_Light=0x7f070001;
+        public static final int Theme_Splash=0x7f070147;
         public static final int ThemeOverlay_AppCompat=0x7f0700ee;
         public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0700ef;
         public static final int ThemeOverlay_AppCompat_Dark=0x7f0700f0;
