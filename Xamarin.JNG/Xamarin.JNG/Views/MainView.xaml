@@ -7,111 +7,125 @@
         <ResourceDictionary>
             <Style x:Key="labelSWStyle" TargetType="Label">
                 <Setter Property="HorizontalOptions"
-                Value="CenterAndExpand" />
+                Value="Start" />
                 <Setter Property="VerticalOptions"
-                Value="CenterAndExpand" />
+                Value="Center" />
                 <Setter Property="FontSize" Value="Large" />
                 <Setter Property="TextColor" Value="Yellow" />
             </Style>
+            <Style x:Key="entrySWStyle" TargetType="Entry">
+                <Setter Property="HorizontalOptions"
+                Value="Fill" />
+                <Setter Property="VerticalOptions"
+                Value="Center" />
+                <Setter Property="Keyboard"
+                Value="Text" />
+                <Setter Property="BackgroundColor"
+                Value="Gray" />
+            </Style>
+            <Style x:Key="InternalViewStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor" 
+            Value="Black"/>
+                <Setter Property="VerticalOptions" Value="Fill"/>
+                <Setter Property="Padding" Value="0"></Setter>
+            </Style>
+
+            <Style x:Key="BorderStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor" Value="Yellow"/>
+                <Setter Property="Padding" Value="3,3,3,3"></Setter>
+            </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-    <Grid>
+    <Grid Padding="40,10,40,10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <!-- ROW 0 -->
-        <Label 
+        <Image
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            Source="BannerJNG.png"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill"/>
+        <!-- <Label 
             Grid.Column="0"
             Grid.Row="0"
             Grid.ColumnSpan="2"
             Text="Jedi Name"
             TextColor="Yellow"
             FontSize="Large" 
-            HorizontalOptions="CenterAndExpand"/>
+            HorizontalOptions="CenterAndExpand"/> -->
         <!-- ROW 1 -->
-        <Label 
+        <!-- <Label 
             Grid.Column="0"
             Grid.Row="1"
             Grid.ColumnSpan="2"
             Text="Generator"
             TextColor="Yellow"
             FontSize="Large" 
-            HorizontalOptions="CenterAndExpand"/>
+            HorizontalOptions="CenterAndExpand"/>-->
         <!-- ROW 2 -->
         <Label
             Grid.Column="0"
             Grid.Row="2"
-            Text="Tu Nombre:"
-            TextColor="Yellow"
-            FontSize="Default"
-            HorizontalOptions="Center" 
-            VerticalOptions="Center"/>
+            Text="Nombre:"
+            Style="{StaticResource labelSWStyle}"/>
         <Entry
             Text="{Binding Name, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="2" 
-            Placeholder="Nombre"
-            BackgroundColor="Gray"
-            Keyboard="Text"/>
+            Style="{StaticResource entrySWStyle}"
+            Placeholder="Nombre"/>
         <!-- ROW 3 -->
         <Label
             Grid.Column="0"
             Grid.Row="3"
-            Text="Tu Primer Apellido:"
-            TextColor="Yellow"
-            FontSize="Default"
-            HorizontalOptions="Center" 
-            VerticalOptions="Center"/>
+            Text="1º Apellido:"
+            Style="{StaticResource labelSWStyle}"/>
         <Entry
             Text="{Binding FirstSurname, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="3" 
-            BackgroundColor="Gray"
-            Placeholder="Apellido"
-            Keyboard="Text"/>
+            Style="{StaticResource entrySWStyle}"
+            Placeholder="Apellido"/>
         <!-- ROW 4 -->
         <Label
             Grid.Column="0"
             Grid.Row="4"
-            Text="Tu Segundo Apellido:"
-            TextColor="Yellow"
-            FontSize="Default"
-            HorizontalOptions="Center" 
-            VerticalOptions="Center"/>
+            Text="2º Apellido:"
+            Style="{StaticResource labelSWStyle}"/>
         <Entry
             Text="{Binding LastSurname, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="4" 
-            BackgroundColor="Gray"
-            Placeholder="Apellido"
-            Keyboard="Text"/>
+            Style="{StaticResource entrySWStyle}"
+            Placeholder="Apellido"/>
         <!-- ROW 5 -->
         <Label
             Grid.Column="0"
             Grid.Row="5"
-            Text="Tu Ciudad de nacimiento:"
-            TextColor="Yellow"
-            FontSize="Default"
-            HorizontalOptions="Center" 
-            VerticalOptions="Center"/>
+            Text="Ciudad:"
+            Style="{StaticResource labelSWStyle}"/>
         <Entry
             Text="{Binding City, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="5" 
-            BackgroundColor="Gray"
-            Placeholder="Ciudad"
-            Keyboard="Text" />
+            Style="{StaticResource entrySWStyle}"
+            Placeholder="Ciudad"/>
         <!-- ROW 6 -->
         <Button
             Command="{Binding ClickCommand}"
@@ -125,18 +139,26 @@
         <Label
             Grid.Column="0"
             Grid.Row="7"
-            Text="Tu nombre Jedi:"
-            TextColor="Yellow"
-            FontSize="Default"
-            HorizontalOptions="Center" 
-            VerticalOptions="Center"/>
-        <ContentView
-            BackgroundColor="Gray"
-            Grid.Row="7"
-            Grid.Column="1"
-            Padding="10,10,10,10">
-            <Label
-                Text="{Binding JediName, Mode=OneWay}"/>
+            Grid.ColumnSpan="2"
+            Text="Nombre Jedi:"
+            Style="{StaticResource labelSWStyle}"/>
+        <!-- ROW 8 -->
+        <ContentView 
+            Grid.Column="0"
+            Grid.Row="8"
+            Grid.ColumnSpan="2"
+            Style="{StaticResource BorderStyle}" >
+            <ContentView 
+                Style="{StaticResource InternalViewStyle}">
+                <Label
+                    TextColor="Yellow"
+                    FontSize="36" 
+                    FontAttributes="Bold"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalTextAlignment="Start"
+                    Text="{Binding JediName, Mode=OneWay}"/>
+            </ContentView>
         </ContentView>
+
     </Grid>
 </ContentPage>

@@ -1,2 +1,0 @@
-C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Windows\Xamarin.JNG.Windows.csproj;neutral
-C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.csproj;neutral
