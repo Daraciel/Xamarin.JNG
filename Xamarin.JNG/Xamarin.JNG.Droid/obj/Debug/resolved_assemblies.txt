@@ -42,3 +42,5 @@ C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\obj
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\obj\Debug\linksrc\en\Xamarin.JNG.resources.dll
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG.Droid\obj\Debug\linksrc\en-US\Xamarin.JNG.resources.dll

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Xamarin.JNG.Views.MainView"
+             xmlns:resources="clr-namespace:Xamarin.JNG.Resources;assembly=Xamarin.JNG"
              BackgroundImage="StarsBG.jpg">
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -82,50 +83,50 @@
         <Label
             Grid.Column="0"
             Grid.Row="2"
-            Text="Nombre:"
+            Text="{resources:Translate MainView_Name}"
             Style="{StaticResource labelSWStyle}"/>
         <Entry
             Text="{Binding Name, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="2" 
             Style="{StaticResource entrySWStyle}"
-            Placeholder="Nombre"/>
+            Placeholder="{resources:Translate MainView_PlaceholderName}"/>
         <!-- ROW 3 -->
         <Label
             Grid.Column="0"
             Grid.Row="3"
-            Text="1º Apellido:"
+            Text="{resources:Translate MainView_FirstSurname}"
             Style="{StaticResource labelSWStyle}"/>
         <Entry
             Text="{Binding FirstSurname, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="3" 
             Style="{StaticResource entrySWStyle}"
-            Placeholder="Apellido"/>
+            Placeholder="{resources:Translate MainView_PlaceholderFirstSurname}" />
         <!-- ROW 4 -->
         <Label
             Grid.Column="0"
             Grid.Row="4"
-            Text="2º Apellido:"
+            Text="{resources:Translate MainView_SecondSurname}"
             Style="{StaticResource labelSWStyle}"/>
         <Entry
             Text="{Binding LastSurname, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="4" 
             Style="{StaticResource entrySWStyle}"
-            Placeholder="Apellido"/>
+            Placeholder="{resources:Translate MainView_PlaceholderSecondSurname}" />
         <!-- ROW 5 -->
         <Label
             Grid.Column="0"
             Grid.Row="5"
-            Text="Ciudad:"
+            Text="{resources:Translate MainView_City}"
             Style="{StaticResource labelSWStyle}"/>
         <Entry
             Text="{Binding City, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="5" 
             Style="{StaticResource entrySWStyle}"
-            Placeholder="Ciudad"/>
+            Placeholder="{resources:Translate MainView_PlaceholderCity}" />
         <!-- ROW 6 -->
         <Button
             Command="{Binding ClickCommand}"
@@ -133,14 +134,14 @@
             Grid.Column="0"
             Grid.ColumnSpan="2"
             HorizontalOptions="Center"
-            Text="Generar Nombre"/>
+            Text="{resources:Translate MainView_GenerateButton}" />
 
         <!-- ROW 7 -->
         <Label
             Grid.Column="0"
             Grid.Row="7"
             Grid.ColumnSpan="2"
-            Text="Nombre Jedi:"
+            Text="{resources:Translate MainView_ResultName}"
             Style="{StaticResource labelSWStyle}"/>
         <!-- ROW 8 -->
         <ContentView 
