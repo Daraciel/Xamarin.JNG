@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Xamarin.JNG.Views.MainView"
              xmlns:resources="clr-namespace:Xamarin.JNG.Resources;assembly=Xamarin.JNG"
+             xmlns:controls="clr-namespace:Xamarin.JNG.Controls;assembly=Xamarin.JNG"
              BackgroundImage="StarsBG.jpg">
     <ContentPage.Resources>
         <ResourceDictionary>
+            
             <Style x:Key="labelSWStyle" TargetType="Label">
                 <Setter Property="HorizontalOptions"
                 Value="Start" />
@@ -37,12 +39,13 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-    <Grid Padding="40,10,40,10">
+    <Grid Padding="30,10,30,10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -160,6 +163,12 @@
                     Text="{Binding JediName, Mode=OneWay}"/>
             </ContentView>
         </ContentView>
-
+        <!-- ROW 9 -->
+        <controls:AdMobView
+            Grid.Column="0"
+            Grid.Row="9"
+            Grid.ColumnSpan="2" 
+            WidthRequest="320" 
+            HeightRequest="50" />
     </Grid>
 </ContentPage>

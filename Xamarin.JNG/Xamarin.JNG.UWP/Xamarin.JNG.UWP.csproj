@@ -108,6 +108,11 @@
     <None Include="Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BannerJNG.png" />
+    <AndroidResource Include="Assets\icon.png" />
+    <Content Include="iconJNG.png" />
+    <Content Include="splashcreen.jpg" />
+    <Content Include="StarsBG.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
