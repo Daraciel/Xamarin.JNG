@@ -80,7 +80,7 @@ namespace Xamarin.JNG.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Generar Nombre.
+        ///   Looks up a localized string similar to Generar.
         /// </summary>
         internal static string MainView_GenerateButton {
             get {

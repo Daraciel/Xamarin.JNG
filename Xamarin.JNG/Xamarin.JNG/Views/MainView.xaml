@@ -7,6 +7,26 @@
              BackgroundImage="StarsBG.jpg">
     <ContentPage.Resources>
         <ResourceDictionary>
+
+            <OnPlatform x:TypeArguments="Color" Android="Gray" iOS="Yellow" WinPhone="Yellow"
+            x:Key="ButtonBorderColor" />
+            <OnPlatform x:TypeArguments="Color" Android="Gray" iOS="Black" WinPhone="Black"
+            x:Key="ButtonBGColor" />
+            <OnPlatform x:TypeArguments="Color" Android="Black" iOS="White" WinPhone="White"
+            x:Key="ButtonTextColor" />
+
+            <Style x:Key="buttonSWStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions"
+                        Value="Center" />
+                <Setter Property="FontSize"
+                        Value="Medium" />
+                <Setter Property="BorderColor"
+                        Value="{StaticResource ButtonBorderColor}" />
+                <Setter Property="BackgroundColor"
+                        Value="{StaticResource ButtonBGColor}" />
+                <Setter Property="TextColor"
+                        Value="{StaticResource ButtonTextColor}" />
+            </Style>
             
             <Style x:Key="labelSWStyle" TargetType="Label">
                 <Setter Property="HorizontalOptions"
@@ -136,7 +156,7 @@
             Grid.Row="6"
             Grid.Column="0"
             Grid.ColumnSpan="2"
-            HorizontalOptions="Center"
+            Style="{StaticResource buttonSWStyle}"
             Text="{resources:Translate MainView_GenerateButton}" />
 
         <!-- ROW 7 -->
@@ -145,7 +165,8 @@
             Grid.Row="7"
             Grid.ColumnSpan="2"
             Text="{resources:Translate MainView_ResultName}"
-            Style="{StaticResource labelSWStyle}"/>
+            Style="{StaticResource labelSWStyle}"
+            VerticalOptions="Start"/>
         <!-- ROW 8 -->
         <ContentView 
             Grid.Column="0"

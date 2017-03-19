@@ -133,7 +133,7 @@
     <value>2º Surname:</value>
   </data>
   <data name="MainView_GenerateButton" xml:space="preserve">
-    <value>Generate Name</value>
+    <value>Generate</value>
   </data>
   <data name="MainView_PlaceholderCity" xml:space="preserve">
     <value>City</value>
