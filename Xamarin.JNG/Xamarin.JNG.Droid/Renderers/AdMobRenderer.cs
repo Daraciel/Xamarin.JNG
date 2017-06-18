@@ -25,7 +25,7 @@ namespace Xamarin.JNG.Droid.Renderers
         AdSize adSize = AdSize.SmartBanner;
         AdView adView;
 
-        AdView CreateNativeControl()
+        AdView CreateCustomNativeControl()
         {
             if (adView != null)
                 return adView;
@@ -51,7 +51,7 @@ namespace Xamarin.JNG.Droid.Renderers
             base.OnElementChanged(e);
             if (Control == null)
             {
-                CreateNativeControl();
+                adView = CreateCustomNativeControl();
                 SetNativeControl(adView);
             }
         }

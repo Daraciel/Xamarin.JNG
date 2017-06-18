@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MS_TableConnectionString-Web.config Connection String" description="MS_TableConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Xamarin.JNG.Server-20170618104008.mdf;Initial Catalog=aspnet-Xamarin.JNG.Server-20170618104008;Integrated Security=True;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\DarkCrow\\Documents\\GitHub\\Xamarin\.JNG\\Xamarin\.JNG\.Server\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

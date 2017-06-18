@@ -89,6 +89,15 @@ namespace Xamarin.JNG.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Método.
+        /// </summary>
+        internal static string MainView_Method {
+            get {
+                return ResourceManager.GetString("MainView_Method", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Nombre:.
         /// </summary>
         internal static string MainView_Name {

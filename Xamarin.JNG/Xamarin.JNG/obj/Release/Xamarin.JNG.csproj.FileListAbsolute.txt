@@ -12,7 +12,14 @@ C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Relea
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.Views.MainView.xaml.g.cs
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.dll
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.pdb
-C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.dll.mdb
-C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Release\Xamarin.JNG.dll.mdb
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Release\en-US\Xamarin.JNG.resources.dll
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Release\en\Xamarin.JNG.resources.dll
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.Resources.Resource.resources
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.Resources.Resource.en-US.resources
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.Resources.Resource.en.resources
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.csproj.GenerateResource.Cache
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\en-US\Xamarin.JNG.resources.dll
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\en\Xamarin.JNG.resources.dll
+C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.csprojResolveAssemblyReference.cache
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\obj\Release\Xamarin.JNG.dll.mdb
 C:\Users\DarkCrow\Documents\GitHub\Xamarin.JNG\Xamarin.JNG\Xamarin.JNG\bin\Release\Xamarin.JNG.dll.mdb

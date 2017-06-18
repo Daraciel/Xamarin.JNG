@@ -75,6 +75,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <!-- ROW 0 -->
         <Image
@@ -109,7 +110,7 @@
             Text="{resources:Translate MainView_Name}"
             Style="{StaticResource labelSWStyle}"/>
         <Entry
-            Text="{Binding Name, Mode=OneWayToSource}"
+            Text="{Binding JediNameGen.Name, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="2" 
             Style="{StaticResource entrySWStyle}"
@@ -121,7 +122,7 @@
             Text="{resources:Translate MainView_FirstSurname}"
             Style="{StaticResource labelSWStyle}"/>
         <Entry
-            Text="{Binding FirstSurname, Mode=OneWayToSource}"
+            Text="{Binding JediNameGen.FirstSurname, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="3" 
             Style="{StaticResource entrySWStyle}"
@@ -133,7 +134,7 @@
             Text="{resources:Translate MainView_SecondSurname}"
             Style="{StaticResource labelSWStyle}"/>
         <Entry
-            Text="{Binding LastSurname, Mode=OneWayToSource}"
+            Text="{Binding JediNameGen.LastSurname, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="4" 
             Style="{StaticResource entrySWStyle}"
@@ -145,49 +146,71 @@
             Text="{resources:Translate MainView_City}"
             Style="{StaticResource labelSWStyle}"/>
         <Entry
-            Text="{Binding City, Mode=OneWayToSource}"
+            Text="{Binding JediNameGen.City, Mode=OneWayToSource}"
             Grid.Column="1"
             Grid.Row="5" 
             Style="{StaticResource entrySWStyle}"
             Placeholder="{resources:Translate MainView_PlaceholderCity}" />
         <!-- ROW 6 -->
+        <Label
+            Grid.Column="0"
+            Grid.Row="6"
+            Text="{resources:Translate MainView_Method}"
+            Style="{StaticResource labelSWStyle}"/>
+        <Picker 
+            Grid.Column="1"
+            Grid.Row="6"
+            BackgroundColor="Gray"
+            ItemsSource="{Binding SelectableNameTypes}"  
+            ItemDisplayBinding="{Binding Description}" 
+            SelectedItem="{Binding JediNameGen.SelectedItem, Mode=TwoWay}"/>
+        <!-- 
+        <Picker 
+            Grid.Column="1"
+            Grid.Row="6" 
+            BackgroundColor="Gray"
+            ItemsSource="{Binding Select}"/>
+        
+            ItemDisplayBinding="{Binding Description}"
+            SelectedItem="{Binding JediNameGen.SelectedItem, Mode=TwoWay}" -->
+        <!-- ROW 7 -->
         <Button
             Command="{Binding ClickCommand}"
-            Grid.Row="6"
+            Grid.Row="7"
             Grid.Column="0"
             Grid.ColumnSpan="2"
             Style="{StaticResource buttonSWStyle}"
             Text="{resources:Translate MainView_GenerateButton}" />
 
-        <!-- ROW 7 -->
+        <!-- ROW 8 -->
         <Label
             Grid.Column="0"
-            Grid.Row="7"
+            Grid.Row="8"
             Grid.ColumnSpan="2"
             Text="{resources:Translate MainView_ResultName}"
             Style="{StaticResource labelSWStyle}"
             VerticalOptions="Start"/>
-        <!-- ROW 8 -->
+        <!-- ROW 9 -->
         <ContentView 
             Grid.Column="0"
-            Grid.Row="8"
+            Grid.Row="9"
             Grid.ColumnSpan="2"
             Style="{StaticResource BorderStyle}" >
             <ContentView 
                 Style="{StaticResource InternalViewStyle}">
                 <Label
                     TextColor="Yellow"
-                    FontSize="36" 
+                    FontSize="30" 
                     FontAttributes="Bold"
                     HorizontalOptions="CenterAndExpand"
                     VerticalTextAlignment="Start"
                     Text="{Binding JediName, Mode=OneWay}"/>
             </ContentView>
         </ContentView>
-        <!-- ROW 9 -->
+        <!-- ROW 10 -->
         <controls:AdMobView
             Grid.Column="0"
-            Grid.Row="9"
+            Grid.Row="10"
             Grid.ColumnSpan="2" 
             WidthRequest="320" 
             HeightRequest="50" />

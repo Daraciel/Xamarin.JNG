@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="2" android:versionName="2s" package="Xamarin.JNG">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="4" android:versionName="Release1" package="com.Jorma.JNG">
 	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
 	<application android:label="Jedi Name Generator" android:icon="@drawable/iconJNG">
 		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />

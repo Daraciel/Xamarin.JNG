@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="XamarinJNGServer" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\DarkCrow\\Documents\\GitHub\\Xamarin\.JNG\\Xamarin\.JNG\.Server\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\DarkCrow\\Documents\\GitHub\\Xamarin\.JNG\\Xamarin\.JNG\.Server\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MS_TableConnectionString-Web.config Connection String" description="" value="Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Xamarin.JNG.Server-20170618104008.mdf;Initial Catalog=aspnet-Xamarin.JNG.Server-20170618104008;Integrated Security=True;MultipleActiveResultSets=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\DarkCrow\\Documents\\GitHub\\Xamarin\.JNG\\Xamarin\.JNG\.Server\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

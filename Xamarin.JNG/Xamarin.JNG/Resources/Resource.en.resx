@@ -147,4 +147,7 @@
   <data name="MainView_PlaceholderSecondSurname" xml:space="preserve">
     <value>Surname</value>
   </data>
+  <data name="MainView_Method" xml:space="preserve">
+    <value>Method</value>
+  </data>
 </root>
